@@ -3,6 +3,7 @@ function setup() {
  cnv.position(50,200)
  x=0
  y=0  
+ noloop();
 }
   function draw() {
     background(51);
