@@ -1,8 +1,8 @@
 function setup() {
  let cnv= createCanvas(300, 300);
- cnv.position(50,200)
- x=0
- y=0  
+ cnv.position(50,200);
+ x=0;
+ y=0;  
  noLoop();
 }
   function draw() {
