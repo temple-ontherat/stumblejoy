@@ -4,12 +4,8 @@ function setup() {
  x=0
  y=0  
 }
-//function draw() {
- // background(51);
-//  fill('magenta');
- // let elle=ellipse(120, 100,10);
   function draw() {
-    background(200);
+    background(51);
     angleMode(DEGREES); // Change the mode to DEGREES
     x=120+2*rotationY;
     y=120+2*rotationX;
