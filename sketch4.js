@@ -5,7 +5,7 @@ function setup() {
  y=0  
 }
 //function draw() {
- // background(220, 50);
+ // background(51);
 //  fill('magenta');
  // let elle=ellipse(120, 100,10);
   function draw() {
