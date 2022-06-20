@@ -18,10 +18,10 @@ function setup() {
      }if (y > 275) {
       y=275
      }
-   if (x < 25) {
-      x=25
-     }if (y < 25) {
-      y=25
+   if (x < 0) {
+      x=0
+     }if (y < 0) {
+      y=0
      }
     rect(x,y,25,25)
   }
