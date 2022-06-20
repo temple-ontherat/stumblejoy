@@ -11,8 +11,8 @@ function setup() {
   function draw() {
     background(200);
     angleMode(DEGREES); // Change the mode to DEGREES
-    x=150+rotationX;
-    y=150+rotationY;
+    x=120+2*rotationY;
+    y=120+2*rotationX;
     if (x > 275) {
       x=275
      }if (y > 275) {
