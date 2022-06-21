@@ -3,7 +3,7 @@ function setup() {
  cnv.position(50,200);
  x=0;
  y=0;  
-// noLoop();
+ noLoop();
 }
   function draw() {
     background(51);
@@ -20,6 +20,6 @@ function setup() {
      }if (y < 0) {
       y=0
      }
-    erase();
+   // erase();
     rect(x,y,25,25)
   }
