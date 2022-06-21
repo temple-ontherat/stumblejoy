@@ -9,6 +9,7 @@ function setup() {
     background(51);
     angleMode(DEGREES); // Change the mode to DEGREES
     while (touches.length) = 0 {
+    clear();
     x=120+2*rotationY;
     y=120+2*rotationX;
     if (x > 275) {
