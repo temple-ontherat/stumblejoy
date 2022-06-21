@@ -3,12 +3,11 @@ function setup() {
  cnv.position(50,200);
  x=0;
  y=0;  
- noLoop();
+// noLoop();
 }
   function draw() {
     background(51);
     angleMode(DEGREES); // Change the mode to DEGREES
-    while (touches.length = 0) {
   //  clear();
     x=120+2*rotationY;
     y=120+2*rotationX;
@@ -25,4 +24,4 @@ function setup() {
    // erase();
     rect(x,y,25,25)
   }
-  }
+  
