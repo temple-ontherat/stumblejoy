@@ -8,6 +8,7 @@ function setup() {
   function draw() {
     background(51);
     angleMode(DEGREES); // Change the mode to DEGREES
+    while (touches.length) = 0 {
     x=120+2*rotationY;
     y=120+2*rotationX;
     if (x > 275) {
@@ -22,4 +23,5 @@ function setup() {
      }
    // erase();
     rect(x,y,25,25)
+  }
   }
