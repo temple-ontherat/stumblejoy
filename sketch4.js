@@ -21,7 +21,8 @@ function setup() {
      }if (y < 0) {
       y=0
      }
-   // erase();
-    rect(x,y,25,25)
+    erase();
+    rect(x,y,25,25);
+    noErase();
   }
   
