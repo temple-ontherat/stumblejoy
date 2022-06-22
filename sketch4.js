@@ -10,7 +10,7 @@ function setup() {
     angleMode(DEGREES); // Change the mode to DEGREES
   //  clear();
     x=120+2*rotationY;
-    y=90+2*rotationX;
+    y=30+2*rotationX;
     if (x > 275) {
       x=275
      }if (y > 275) {
