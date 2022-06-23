@@ -10,7 +10,7 @@ function setup() {
     angleMode(DEGREES); // Change the mode to DEGREES
   //  clear();
    let i=1;
-   while (i < 100) {
+   while (i < 1000) {
     x=120+2*rotationY;
     y=2*rotationX;
     if (x > 275) {
