@@ -9,8 +9,9 @@ function setup() {
     background(51);
     angleMode(DEGREES); // Change the mode to DEGREES
   //  clear();
-   let i=1;
-   while (i < 1000) {
+   
+   while (display < 1) {
+    let display = touches.length;
     x=120+2*rotationY;
     y=2*rotationX;
     if (x > 275) {
@@ -25,7 +26,7 @@ function setup() {
      }
     erase();
     rect(x,y,25,25);
-    i=i+1;
+  //  i=i+1;
    }
   }
   
