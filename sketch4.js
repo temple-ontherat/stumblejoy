@@ -8,10 +8,10 @@ function setup() {
   function draw() {
    
     angleMode(DEGREES); // Change the mode to DEGREES
-    let tutu= touches.length;
-    if (tutu > 0) {
-    noLoop();
-    }
+//    let tutu= touches.length;
+ //   if (tutu > 0) {
+ //   noLoop();
+ //   }
   
     
     x=120+2*rotationY;
@@ -29,4 +29,8 @@ function setup() {
    
     rect(x,y,25,25);
   }
+  function touchStarted() {
+  noLoop();
+  }
+   
   
