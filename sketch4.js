@@ -32,5 +32,8 @@ function setup() {
   function touchStarted() {
   noLoop();
   }
+  function touchEnded() {
+   Loop();
+  }
    
   
