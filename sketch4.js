@@ -3,14 +3,13 @@ function setup() {
  cnv.position(50,200);
  x=0;
  y=0;  
- noLoop();
+ background(51);
 }
   function draw() {
-    background(51);
+   
     angleMode(DEGREES); // Change the mode to DEGREES
-  //  clear();
-   let display = touches.length;
-   while (display < 1) {
+  
+  
     
     x=120+2*rotationY;
     y=2*rotationX;
@@ -24,9 +23,7 @@ function setup() {
      }if (y < 0) {
       y=0;
      }
-    erase();
+   
     rect(x,y,25,25);
-  //  i=i+1;
-   }
   }
   
