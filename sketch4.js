@@ -7,15 +7,15 @@ function setup() {
 }
   function draw() {
    
-    angleMode(DEGREES); // Change the mode to DEGREES
+ //   angleMode(DEGREES); // Change the mode to DEGREES
 //    let tutu= touches.length;
  //   if (tutu > 0) {
  //   noLoop();
  //   }
   
     
-    x=120+2*rotationY;
-    y=2*rotationX;
+    x=120+2*(radians(rotationY));
+    y=2*(radians(rotationX));
     if (x > 275) {
       x=275;
      }if (y > 275) {
