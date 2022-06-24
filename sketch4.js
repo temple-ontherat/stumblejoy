@@ -35,7 +35,7 @@ function setup() {
   noLoop();
   }
   function touchEnded() {
-   Loop();
+   loop();
   }
    
   
