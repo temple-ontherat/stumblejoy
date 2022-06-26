@@ -8,8 +8,8 @@ function setup() {
      function draw() {
       
         angleMode(DEGREES); // Change the mode to DEGREES
-       x=map(rotationY, 0, 300, 0, 180);
-       y=map(rotationX,0,300,0,180);
+       x=map(rotationY, -180, 180, 0, 300);
+       y=map(rotationX, -180, 180, 0, 300);
   /*     if (x > 275) {
          x=275;
         }if (y > 275) {
