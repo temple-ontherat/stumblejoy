@@ -10,7 +10,7 @@ function setup() {
         angleMode(DEGREES); // Change the mode to DEGREES
        x=map(rotationY, 0, 180, 0,300);
        y=map(rotationX,0,180,0,300);
-       if (x > 275) {
+  /*     if (x > 275) {
          x=275;
         }if (y > 275) {
          y=275;
@@ -19,7 +19,7 @@ function setup() {
          x=0;
         }if (y < 0) {
          y=0;
-        }
+        }  */
       
        rect(x,y,25,25);
      }
