@@ -5,10 +5,10 @@ function setup() {
   
    }
      function draw() {
-      
-        angleMode(DEGREES); // Change the mode to DEGREES
-       x=map(rotationY, -50, 50, 0, 5000);
-       y=map(rotationX, 0, 90, 0, 7500);
+   
+       angleMode(DEGREES); // Change the mode to DEGREES
+       x=map(rotationY, -50, 50, 0, 1024);
+       y=map(rotationX, 0, 90, 0, 3500);
        window.scrollTo(x, y);          
      }
     
