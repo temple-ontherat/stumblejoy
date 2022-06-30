@@ -7,7 +7,7 @@ function setup() {
      function draw() {
    
        angleMode(DEGREES); // Change the mode to DEGREES
-       let x=map(rotationY, -50, 50, 0, 50);
+       let x=map(rotationY, 0, 50, 0, 100);
        //y=map(rotationX, 0, 90, 3500, 0);
        window.scrollTo(x, 0);          
      }
