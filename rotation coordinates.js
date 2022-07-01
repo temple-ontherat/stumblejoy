@@ -1,9 +1,9 @@
 function setup() {
-  
-   frameRate(15);
+   clear();
+   frameRate(3);
 }
 function draw() {
-    clear();
+  //  clear();
     
     let y = rotationY;
     let x = rotationX;
