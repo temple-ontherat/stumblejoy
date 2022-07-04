@@ -2,6 +2,7 @@ function setup() {
  
     x=0;
     y=0;  
+    frameRate(1);
   
    }
      function draw() {
