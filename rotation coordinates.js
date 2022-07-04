@@ -5,8 +5,8 @@ function setup() {
 function draw() {
     clear();
     
-    let y = rotationY;
-    let x = rotationX;
+    let x = rotationY;
+    let y = rotationX;
     text(x, 10, 30);
     text(y, 10, 60);
   }
