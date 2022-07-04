@@ -5,6 +5,7 @@ function setup() {
   
    }
      function draw() {
+       clear();
    
        angleMode(DEGREES); // Change the mode to DEGREES
        let x=map(rotationY, 0, 50, 0, 100);
