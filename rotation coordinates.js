@@ -5,8 +5,8 @@ function setup() {
 function draw() {
     clear();
     
-    let x =map(rotationY, -60, 60, 0, 200, true);
-    let y =map(rotationX, 0, 90, 0, 200, true);
+    let x =accelerationX;
+    let y =accelerationY;
    
     text(x, 10, 30);
     text(y, 10, 60);
