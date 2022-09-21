@@ -21,7 +21,7 @@ function setup() {
          y=0;
         }  */
       
-       rect(x,y,25,25);
+       rect(x,y,100,100);
      }
      function touchStarted() {
      noLoop();
