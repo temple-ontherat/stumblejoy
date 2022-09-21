@@ -1,5 +1,5 @@
 function setup() {
-    let cnv= createCanvas(300, 300);
+    let cnv= createCanvas(600, 600);
     cnv.position(50,200);
     x=0;
     y=0;  
@@ -21,7 +21,7 @@ function setup() {
          y=0;
         }  */
       
-       rect(x,y,100,50);
+       rect(x,y,100,100);
      }
      function touchStarted() {
      noLoop();
