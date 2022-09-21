@@ -3,11 +3,11 @@ function setup() {
     cnv.position(50,200);
     x=0;
     y=0;  
-    background(51);
+    
    }
      function draw() {
-      
-        angleMode(DEGREES); // Change the mode to DEGREES
+       background(51);
+       angleMode(DEGREES); // Change the mode to DEGREES
        x=map(rotationY, -50, 50, 0, 300);
        y=map(rotationX, 0, 90, 0, 300);
   /*     if (x > 275) {
