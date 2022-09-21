@@ -1,5 +1,5 @@
 function setup() {
-    let cnv= createCanvas(600, 600);
+    let cnv= createCanvas(900, 1200);
     cnv.position(50,200);
     x=0;
     y=0;  
@@ -8,8 +8,8 @@ function setup() {
      function draw() {
        background(51);
        angleMode(DEGREES); // Change the mode to DEGREES
-       x=map(rotationY, -50, 50, 0, 600);
-       y=map(rotationX, 0, 90, 0, 600);
+       x=map(rotationY, -50, 50, 0, 1200);
+       y=map(rotationX, 0, 90, 0, 900);
   /*     if (x > 275) {
          x=275;
         }if (y > 275) {
@@ -21,7 +21,7 @@ function setup() {
          y=0;
         }  */
       
-       rect(x,y,300,300);
+       rect(x,y,700,1000);
      }
      function touchStarted() {
      noLoop();
