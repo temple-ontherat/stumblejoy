@@ -3,11 +3,12 @@ function setup() {
     cnv.position(50,200);
     x=0;
     y=0;  
-    let s = 'ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quidem eveniet corporis minima id porro vero voluptate omnis. Neque fugit quidem dicta possimus error adipisci cum vitae sequi. Hic, maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque minima natus aspernatur numquam? Expedita doloremque consequatur libero. Odio quia repellat id esse error debitis mollitia, necessitatibus doloremque eaque, perferendis corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis in molestiae dolorem laborum nostrum ullam consequatur nulla pariatur delectus doloribus fugiat, vel error explicabo cum beatae dolor facilis cumque aut.';
-    fill(50);
+    
 
    }
      function draw() {
+       let s = 'ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quidem eveniet corporis minima id porro vero voluptate omnis. Neque fugit quidem dicta possimus error adipisci cum vitae sequi. Hic, maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque minima natus aspernatur numquam? Expedita doloremque consequatur libero. Odio quia repellat id esse error debitis mollitia, necessitatibus doloremque eaque, perferendis corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis in molestiae dolorem laborum nostrum ullam consequatur nulla pariatur delectus doloribus fugiat, vel error explicabo cum beatae dolor facilis cumque aut.';
+    fill(50);  
        background(255);
        angleMode(DEGREES); // Change the mode to DEGREES
        x=map(rotationY, -50, 50, 0, 900);
